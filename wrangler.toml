@@ -1,9 +1,6 @@
 name = "next-auth-postgres"
 pages_build_output_dir = ".vercel/output/static"
 compatibility_date = "2025-07-01"
-name = "next-auth-postgres"
-pages_build_output_dir = ".vercel/output/static"
-compatibility_date = "2025-07-01"
 
 # Optional: custom build command override (only needed if Cloudflare UI build fails)
 [build]
