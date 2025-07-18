@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build && next-on-pages --dir .vercel/output/static",
+    "build": "next build && next-on-pages --outdir .vercel/output/static",
     "deploy": "wrangler pages deploy .vercel/output/static --project-name=next-auth-postgres",
     "start": "next start",
     "lint": "next lint"
