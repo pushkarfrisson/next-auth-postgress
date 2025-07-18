@@ -1,0 +1,15 @@
+name = "next-auth-postgres"
+pages_build_output_dir = ".vercel/output/static"
+compatibility_date = "2025-07-01"
+name = "next-auth-postgres"
+pages_build_output_dir = ".vercel/output/static"
+compatibility_date = "2025-07-01"
+
+# Optional: custom build command override (only needed if Cloudflare UI build fails)
+[build]
+command = "npm run build"
+
+# Optional: environment variables (if you want to set JWT_SECRET, DB_URL here for Pages preview/prod)
+[vars]
+JWT_SECRET = "your-secret-key"
+DATABASE_URL = "postgresql://postgres:Pushkar@123#@db.yaiwzbuiqlhlstyeqako.supabase.co:5432/postgres"
